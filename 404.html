@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow,noarchive" />
+    <title>正在返回 Life OS</title>
+  </head>
+  <body>
+    <p>正在返回 Life OS…</p>
+    <script>
+      (() => {
+        const siteBase = "/life-os-site/";
+        const adminBase = "/life-os-site/admin/";
+        const isAdmin = location.pathname === adminBase.slice(0, -1)
+          || location.pathname.startsWith(adminBase);
+        location.replace((isAdmin ? adminBase : siteBase) + location.search + location.hash);
+      })();
+    </script>
+    <noscript><a href="/life-os-site/">返回 Life OS</a></noscript>
+  </body>
+</html>
