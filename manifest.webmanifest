@@ -1,0 +1,38 @@
+{
+  "id": "./",
+  "name": "Life OS · 个人管理系统",
+  "short_name": "Life OS",
+  "description": "把目标、任务、记录、指标、复盘与奖励放进同一个私人管理系统。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#fff7fa",
+  "theme_color": "#a83f69",
+  "categories": ["productivity", "lifestyle", "health", "finance"],
+  "icons": [
+    {
+      "src": "./pwa-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "打开今日总览",
+      "short_name": "今日总览",
+      "url": "./#dashboard",
+      "icons": [{ "src": "./pwa-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "打开任务",
+      "short_name": "任务",
+      "url": "./#tasks",
+      "icons": [{ "src": "./pwa-icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}

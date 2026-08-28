@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Life OS">
+  <defs>
+    <linearGradient id="background" x1="64" y1="36" x2="450" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#40214f"/>
+      <stop offset="1" stop-color="#a83f69"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="150" y1="120" x2="382" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7fa"/>
+      <stop offset="1" stop-color="#f4b6cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#background)"/>
+  <circle cx="416" cy="104" r="72" fill="#f8cce0" opacity=".16"/>
+  <path d="M142 122h70v198h158v70H142z" fill="url(#mark)"/>
+  <circle cx="351" cy="173" r="38" fill="#f6d9e6"/>
+  <path d="m351 151 7 15 17 2-12 12 3 17-15-8-15 8 3-17-12-12 17-2z" fill="#a83f69"/>
+</svg>
