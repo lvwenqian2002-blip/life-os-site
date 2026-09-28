@@ -1,6 +1,6 @@
 /* Life OS PWA service worker: cache the public app shell, never private API data. */
 const CACHE_PREFIX = "life-os-shell-";
-const CACHE_NAME = `${CACHE_PREFIX}2026-09-29-numbered-agent-v6`;
+const CACHE_NAME = `${CACHE_PREFIX}2026-09-29-upload-safe-v7`;
 const APP_SHELL = new URL("./", self.registration.scope).href;
 const OFFLINE_PAGE = new URL("./offline.html", self.registration.scope).href;
 const PRECACHE = ["./", "./manifest.webmanifest", "./favicon.svg", "./pwa-icon.svg", "./offline.html"]
